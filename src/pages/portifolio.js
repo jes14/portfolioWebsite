@@ -16,8 +16,8 @@ const Image = styled.img`
   object-fit: cover;
   object-position: center center;
   border-radius: 10px;
-  box-shadow: 24px 47px 79px -21px rgba(0,0,0,0.51);
 `
+  // box-shadow: 24px 47px 79px -21px rgba(0,0,0,0.51);
 
 const JobCard = styled.a`
   text-decoration: none;
@@ -32,7 +32,7 @@ const JobCard = styled.a`
 `
 
 const Portifolio = ({ className, location }) => {
-  const title = "Portifolio"
+  const title = "Projects"
   const { keywords, portifolio } = siteConfig
   return (
     <Layout location={location}>
@@ -42,7 +42,7 @@ const Portifolio = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/pierre-chatel-innocenti-W5INoOK-5eI-unsplash.jpeg')}
+        heroImg={withPrefix('/images/cover.jpeg')}
         title={title}
       />
 

@@ -94,12 +94,12 @@ Update the configuration file with your data. The configuration file is in ```da
 
 ```js
   module.exports = {
-    siteTitle: 'Hi! I\'m Yujin!',
+    siteTitle: 'Hi! I\'m Jes!',
     siteDescription: `Create your online curriculum in just a few minutes with this starter`,
     keyWords: ['gatsbyjs', 'react', 'curriculum'],
-    authorName: 'Yujin',
-    twitterUsername: '_franciscodf',
-    githubUsername: 'santosfrancisco',
+    authorName: 'Jes',
+    twitterUsername: 'J001072',
+    githubUsername: 'jes14',
     authorAvatar: '/images/avatar.jpeg',
     authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
       In 2012 I started working as a support technician and I approached the developers.
@@ -178,14 +178,14 @@ Update the configuration file with your data. The configuration file is in ```da
     portifolio: [
       {
         image: "/images/gatsby-starter-cv.png",
-        description: "Gatsby starter CV template",
+        description: "photodapp",
         url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
       },
-      {
-        image: "/images/awesome-grid.png",
-        description: "Responsive grid for ReactJS",
-        url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-      },
+      // {
+      //   image: "/images/awesome-grid.png",
+      //   description: "Responsive grid for ReactJS",
+      //   url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      // },
       /* more portifolio items here */
     ],
     social: {

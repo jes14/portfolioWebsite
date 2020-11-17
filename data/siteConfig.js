@@ -1,15 +1,16 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Yujin!',
+  siteTitle: 'Hi! I\'m Jes!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Yujin',
+  authorName: 'Jes',
   twitterUsername: '_franciscodf',
   githubUsername: 'jes14',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `I'm Jes, a Software Engineer based in Germany. <br/>
+The technologies I work with are JavaScript with a focus on the frameworks React.js. <br/>
+I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/>
+I have passionate about blockchain technologies. <br /> <br />
+I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
   skills: [
     {
       name: 'HTML',
@@ -83,12 +84,12 @@ module.exports = {
   portifolio: [
     {
       image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
+      description: "photodapp",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
       image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
+      description: "election dapp",
       url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
     },
     /* more portifolio items here */
@@ -115,7 +116,7 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
+      label: 'Projects',
       url: '/portifolio',
     }
   ]

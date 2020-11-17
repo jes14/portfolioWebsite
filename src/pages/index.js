@@ -10,8 +10,6 @@ import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
 import About from '../components/about'
-import Skills from '../components/skills'
-import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
 
 const Layout = loadable(() => import('../components/layout'))
@@ -47,12 +45,7 @@ const Home = ({ className, location }) => {
         <Container className="page-content" fluid>
           <Row>
             <Col xs={4} className='avatar'>
-              {/* <img
-                className='avatar__image'
-                src={withPrefix(siteConfig.authorAvatar)}
-                alt='user avatar'
-              /> */}
-              <div className="social">
+              {/* <div className="social">
                 {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
                   <FaGithub className="social-icon" size="32" />
                 </a>}
@@ -61,11 +54,11 @@ const Home = ({ className, location }) => {
                 </a>}
                 {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
                   <FaTwitter className="social-icon" size="32" />
-                </a>}
-                {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
+                </a>} */}
+                {/* {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
                   <FaEnvelope className="social-icon" size="32" />
-                </a>}
-              </div>
+                </a>} */}
+              {/* </div> */}
             </Col>
           </Row>
           <Row>
