@@ -97,7 +97,7 @@ const Header = ({ location, onChangeTheme, theme }) => {
             </HeaderLink>
           ))}
         </HeaderLinkGroup>
-        {siteConfig.enableDarkmode && <SwitchWrapper >
+        {/* {siteConfig.enableDarkmode && <SwitchWrapper >
           <StyledSwitch 
             onChange={onChangeTheme} 
             checked={theme === 'light'}
@@ -106,7 +106,7 @@ const Header = ({ location, onChangeTheme, theme }) => {
             checkedIcon={<IconWrapper><FiSun color="yellow" /></IconWrapper>}
             uncheckedIcon={<IconWrapper><FiMoon color="white" /></IconWrapper>}
           />
-        </SwitchWrapper>}
+        </SwitchWrapper>} */}
       </HeaderNav>
     </HeaderWrapper>
   )

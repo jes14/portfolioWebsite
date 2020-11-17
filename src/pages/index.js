@@ -47,11 +47,11 @@ const Home = ({ className, location }) => {
         <Container className="page-content" fluid>
           <Row>
             <Col xs={4} className='avatar'>
-              <img
+              {/* <img
                 className='avatar__image'
                 src={withPrefix(siteConfig.authorAvatar)}
                 alt='user avatar'
-              />
+              /> */}
               <div className="social">
                 {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
                   <FaGithub className="social-icon" size="32" />
@@ -69,15 +69,15 @@ const Home = ({ className, location }) => {
             </Col>
           </Row>
           <Row>
-            <Col xs={4} sm={4}>
+            {/* <Col xs={4} sm={4}> */}
               <About title='About' text={siteConfig.authorDescription}/>
-            </Col>
+            {/* </Col>
             <Col xs={4} sm={4}>
               <Skills title='Skills' skills={siteConfig.skills} />
-            </Col>
+            </Col> */}
           </Row>
-          <Separator />
-          <Timeline />
+          {/* <Separator /> */}
+          {/* <Timeline /> */}
           <Separator />
           {siteConfig.githubUsername && <Repositories />}
         </Container>

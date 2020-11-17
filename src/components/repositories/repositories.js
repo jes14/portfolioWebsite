@@ -7,7 +7,7 @@ import siteConfig from '../../../data/siteConfig'
 import Loader from '../loader'
 
 const endpoint =
-  `https://api.github.com/users/${siteConfig.githubUsername}/repos?type=owner&sort=updated&per_page=5&page=1`
+  `https://api.github.com/users/${siteConfig.githubUsername}/repos?type=owner&sort=updated&per_page=3&page=1`
 
 
 class Repositories extends React.Component {
@@ -48,10 +48,10 @@ class Repositories extends React.Component {
                       <div className="repositories__repo-date">
                         Updated: {new Date(repo.updated_at).toUTCString()}
                       </div>
-                      <div className="repositories__repo-star">
+                      {/* <div className="repositories__repo-star">
                         {repo.fork && <GoRepoForked />}
                         <GoStar /> {repo.stargazers_count}
-                      </div>
+                      </div> */}
                     </div>
                     <hr />
                   </React.Fragment>
