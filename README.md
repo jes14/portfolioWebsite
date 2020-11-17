@@ -189,10 +189,9 @@ Update the configuration file with your data. The configuration file is in ```da
       /* more portifolio items here */
     ],
     social: {
-      twitter: "https://twitter.com/_franciscodf",
-      linkedin: "https://www.linkedin.com/in/santos-francisco",
-      github: "https://github.com/santosfrancisco",
-      email: "yoshi.df@gmail.com"
+      twitter: "https://twitter.com/jes14",
+      linkedin: "https://www.linkedin.com/in/yjink/",
+      github: "https://github.com/jes14",
     },
     siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
     pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.

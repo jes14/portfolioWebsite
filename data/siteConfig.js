@@ -3,14 +3,13 @@ module.exports = {
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Jes',
-  twitterUsername: '_franciscodf',
+  twitterUsername: 'J001072',
   githubUsername: 'jes14',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `I'm Jes, a Software Engineer based in Germany. <br/>
+  authorDescription: `I'm Jes, a Software Engineer based in Germany. <br /> <br />
 The technologies I work with are JavaScript with a focus on the frameworks React.js. <br/>
 I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/>
-I have passionate about blockchain technologies. <br /> <br />
-I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+I have passionate about <strong>blockchain technologies</strong>. <br /> <br />`,
   skills: [
     {
       name: 'HTML',
@@ -95,10 +94,9 @@ I currently work as a frontend developer and mainly work with <strong>Javascript
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/J001072",
+    linkedin: "https://www.linkedin.com/in/yjink",
+    github: "https://github.com/jes14",
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.

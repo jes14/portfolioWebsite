@@ -45,32 +45,11 @@ const Home = ({ className, location }) => {
         <Container className="page-content" fluid>
           <Row>
             <Col xs={4} className='avatar'>
-              {/* <div className="social">
-                {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
-                  <FaGithub className="social-icon" size="32" />
-                </a>}
-                {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
-                  <FaLinkedin className="social-icon" size="32" />
-                </a>}
-                {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
-                  <FaTwitter className="social-icon" size="32" />
-                </a>} */}
-                {/* {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
-                  <FaEnvelope className="social-icon" size="32" />
-                </a>} */}
-              {/* </div> */}
             </Col>
           </Row>
           <Row>
-            {/* <Col xs={4} sm={4}> */}
               <About title='About' text={siteConfig.authorDescription}/>
-            {/* </Col>
-            <Col xs={4} sm={4}>
-              <Skills title='Skills' skills={siteConfig.skills} />
-            </Col> */}
           </Row>
-          {/* <Separator /> */}
-          {/* <Timeline /> */}
           <Separator />
           {siteConfig.githubUsername && <Repositories />}
         </Container>
@@ -120,7 +99,4 @@ export default styled(Home)`
     color: #0077B5;
   }
 
-  a.social-link.email:hover {
-    color: #c23a2b;
-  }
 `

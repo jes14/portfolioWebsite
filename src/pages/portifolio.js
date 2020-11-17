@@ -17,7 +17,6 @@ const Image = styled.img`
   object-position: center center;
   border-radius: 10px;
 `
-  // box-shadow: 24px 47px 79px -21px rgba(0,0,0,0.51);
 
 const JobCard = styled.a`
   text-decoration: none;
