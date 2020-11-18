@@ -13,22 +13,22 @@ module.exports = {
 `,
   portfolio: [
     {
-      image: "/public/images/cover.jpeg",
+      image: "/images/cover.jpeg",
       description: "photodapp[JavaScript]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
-      image: "/public/images/cover.jpeg",
+      image: "/images/cover.jpeg",
       description: "election dapp[JavaScript]",
       url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
     },
     {
-      image: "/images/cover2.jpeg",
+      image: "/images/cover.jpeg",
       description: "My portfolio[JavaScript]",
       url: "https://github.com/jes14/portfolio_"
     },
     {
-      image: "/images/cover2.jpeg",
+      image: "/images/cover.jpeg",
       description: "VR cat[Unity3D]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
