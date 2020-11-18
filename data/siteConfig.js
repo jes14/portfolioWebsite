@@ -14,7 +14,7 @@ module.exports = {
 `,
   portfolio: [
     {
-      image: "/images/cover2.jpeg",
+      image: "src/assets/cover2.jpeg",
       description: "photodapp[JavaScript]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
