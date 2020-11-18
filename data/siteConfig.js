@@ -20,8 +20,8 @@ module.exports = {
     {
       image: "/images/cover2.jpeg",
       description: "election dapp[JavaScript]",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-    },
+      url: "/"
+        },
     {
       image: "/images/cover2.jpeg",
       description: "My portfolio[JavaScript]",
@@ -30,17 +30,17 @@ module.exports = {
     {
       image: "/images/cover2.jpeg",
       description: "VR cat[Unity3D]",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      url: "/"    
     },
     {
       image: "/images/cover2.jpeg",
       description: "VR moral[Unity3D]",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      url: "/"
     },
     {
       image: "/images/cover2.jpeg",
       description: "Flutter[Flutter]",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      url: "/"
     },
     {
       image: "/images/cover2.jpeg",
