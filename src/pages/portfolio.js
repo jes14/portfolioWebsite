@@ -20,6 +20,7 @@ const Image = styled.img`
 
 const Button = styled.button`
   color: ${props => props.theme.fg};
+  border: 0px solid ${props => props.theme.fg};
   background: ${props => props.theme.bg};
   font-size: 1em;
   margin-left: 3px;
@@ -27,7 +28,7 @@ const Button = styled.button`
 `;
 
 const theme = {
-  fg: "rebeccapurple",
+  fg: "grey",
   bg: "papayawhip"
 };
 
@@ -73,7 +74,7 @@ const Portfolio = ({ className, location }) => {
                   target="_blank"
                 >
                   <Image src={withPrefix(job.image)} />
-                  <p>{job.description}
+                  <p align="center">{job.description}
                   
                     <Button theme={theme}>{job.skill}</Button>
                       {/* </ThemeProvider> */}
