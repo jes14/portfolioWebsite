@@ -8,7 +8,8 @@ module.exports = {
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `
 👋 I'm Jes, a Software Engineer based in Germany. <br /> <br />
-✨ I was working with website and game development along with the full-stack decentralized applications. I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/> <br />
+✨ I was working with website and game development along with the full-stack decentralized applications. <br/> <br />
+✨ I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/> <br />
 ✨ I have passionate about <strong>blockchain</strong> technologies. Feel free to check my recent experience in Ethereum smart-contracts auditing and full-stack DApp development.
 `,
   portfolio: [
