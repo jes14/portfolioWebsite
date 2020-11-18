@@ -6,20 +6,51 @@ module.exports = {
   twitterUsername: 'J001072',
   githubUsername: 'jes14',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `I'm Jes, a Software Engineer based in Germany. <br /> <br />
-The technologies I work with are JavaScript with a focus on the frameworks React.js. <br/>
-I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/>
-I have passionate about <strong>blockchain technologies</strong>. <br /> <br />`,
+  authorDescription: `
+👋 I'm Jes, a Software Engineer based in Germany. <br /> <br />
+✨ I was working with website and game development along with full stack decentralized application. I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/> <br />
+✨ I have passionate about <strong>blockchain technologies</strong>. Feel free to check my recent experience in Ethereum smart-contracts auditing and fullstack DApp development.
+`,
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "photodapp",
+      image: "/images/cover.jpeg",
+      description: "photodapp[JavaScript]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "election dapp",
+      image: "/images/cover.jpeg",
+      description: "election dapp[JavaScript]",
       url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+    },
+    {
+      image: "/images/cover.jpeg",
+      description: "Gatsby blog[JavaScript]",
+      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+    },
+    {
+      image: "/images/cover.jpeg",
+      description: "VR cat[Unity3D]",
+      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+    },
+    {
+      image: "/images/cover.jpeg",
+      description: "VR moral[Unity3D]",
+      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+    },
+    {
+      image: "/images/cover.jpeg",
+      description: "Flutter[Flutter]",
+      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+    },
+    {
+      image: "/images/cover.jpeg",
+      description: "Movie app[Kotlin]",
+      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+    },
+    {
+      image: "/images/cover.jpeg",
+      description: "Quiz app[Kotlin]",
+      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     /* more portifolio items here */
   ],
