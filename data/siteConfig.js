@@ -15,12 +15,12 @@ module.exports = {
   portfolio: [
     {
       image: "/images/cover2.jpeg",
-      description: "photodapp[JavaScript]",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      description: "photo Dapp[JavaScript]",
+      url: "/"
     },
     {
       image: "/images/cover2.jpeg",
-      description: "election dapp[JavaScript]",
+      description: "election Dapp[JavaScript]",
       url: "/"
         },
     {
@@ -31,27 +31,27 @@ module.exports = {
     {
       image: "/images/cover2.jpeg",
       description: "VR cat[Unity3D]",
-      url: "/"    
+      url: "/vrcat"    
     },
     {
       image: "/images/cover2.jpeg",
       description: "VR moral[Unity3D]",
-      url: "/"
+      url: "/vrmoral"
     },
     {
       image: "/images/cover2.jpeg",
       description: "Flutter[Flutter]",
-      url: "/"
+      url: "/mobile_bluetooth"
     },
     {
       image: "/images/cover2.jpeg",
       description: "Movie app[Kotlin]",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      url: "/mobile_movie"
     },
     {
       image: "/images/cover2.jpeg",
       description: "Quiz app[Kotlin]",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      url: "/mobile_quiz"
     },
     /* more portfolio items here */
   ],
