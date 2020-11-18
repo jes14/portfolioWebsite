@@ -41,7 +41,7 @@ const Portfolio = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/cover.jpeg')}
+        heroImg={withPrefix('/images/cover2.jpeg')}
         title={title}
       />
 

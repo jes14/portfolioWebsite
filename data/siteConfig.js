@@ -13,42 +13,42 @@ module.exports = {
 `,
   portfolio: [
     {
-      image: "/images/cover.jpeg",
+      image: "/images/cover2.jpeg",
       description: "photodapp[JavaScript]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
-      image: "/images/cover.jpeg",
+      image: "/images/cover2.jpeg",
       description: "election dapp[JavaScript]",
       url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
     },
     {
-      image: "/images/cover.jpeg",
+      image: "/images/cover2.jpeg",
       description: "My portfolio[JavaScript]",
       url: "https://github.com/jes14/portfolio_"
     },
     {
-      image: "/images/cover.jpeg",
+      image: "/images/cover2.jpeg",
       description: "VR cat[Unity3D]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
-      image: "/images/cover.jpeg",
+      image: "/images/cover2.jpeg",
       description: "VR moral[Unity3D]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
-      image: "/images/cover.jpeg",
+      image: "/images/cover2.jpeg",
       description: "Flutter[Flutter]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
-      image: "/images/cover.jpeg",
+      image: "/images/cover2.jpeg",
       description: "Movie app[Kotlin]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
-      image: "/images/cover.jpeg",
+      image: "/images/cover2.jpeg",
       description: "Quiz app[Kotlin]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
@@ -61,7 +61,7 @@ module.exports = {
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/cover2.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
