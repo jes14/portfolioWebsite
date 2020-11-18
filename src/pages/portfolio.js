@@ -20,7 +20,6 @@ const Image = styled.img`
 
 const Button = styled.button`
   color: ${props => props.theme.fg};
-  border: 2px solid ${props => props.theme.fg};
   background: ${props => props.theme.bg};
   font-size: 1em;
   margin-left: 3px;
@@ -28,7 +27,7 @@ const Button = styled.button`
 `;
 
 const theme = {
-  fg: "orange",
+  fg: "rebeccapurple",
   bg: "papayawhip"
 };
 
