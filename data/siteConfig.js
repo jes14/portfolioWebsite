@@ -28,7 +28,7 @@ module.exports = {
       url: "https://github.com/jes14/portfolio_"
     },
     {
-      image: "/images/cover.jpeg",
+      image: "/images/cover2.jpeg",
       description: "VR cat[Unity3D]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },

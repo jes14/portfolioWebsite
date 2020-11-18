@@ -30,7 +30,7 @@ const JobCard = styled.a`
   `}
 `
 
-const Portifolio = ({ className, location }) => {
+const Portfolio = ({ className, location }) => {
   const title = "Projects"
   const { keywords, portfolio } = siteConfig
   return (
@@ -70,7 +70,7 @@ const Portifolio = ({ className, location }) => {
   )
 }
 
-export default styled(Portifolio)`
+export default styled(Portfolio)`
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;
