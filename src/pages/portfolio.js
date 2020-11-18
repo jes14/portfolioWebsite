@@ -18,6 +18,20 @@ const Image = styled.img`
   border-radius: 5px;
 `
 
+const Button = styled.button`
+  color: ${props => props.theme.fg};
+  border: 2px solid ${props => props.theme.fg};
+  background: ${props => props.theme.bg};
+  font-size: 1em;
+  margin-left: 3px;
+  border-radius: 3px;
+`;
+
+const theme = {
+  fg: "orange",
+  bg: "papayawhip"
+};
+
 const JobCard = styled.a`
   text-decoration: none;
   color: inherit;
@@ -46,6 +60,7 @@ const Portfolio = ({ className, location }) => {
       />
 
       <Wrapper className={className}>
+        <h5 align="center">🖱️ Click for the github link</h5>
         <Container className="page-content" fluid>
           <Row>
             {portfolio.map(job => (
@@ -59,7 +74,12 @@ const Portfolio = ({ className, location }) => {
                   target="_blank"
                 >
                   <Image src={withPrefix(job.image)} />
-                  <p align="center">{job.description}</p>
+                  <p>{job.description}
+                  
+                    <Button theme={theme}>{job.skill}</Button>
+                      {/* </ThemeProvider> */}
+                    
+                  </p>
                 </JobCard>
               </Col>
             ))}

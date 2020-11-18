@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Jes!',
+  siteTitle: 'Hello, I\'m Jes',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Jes',
@@ -15,43 +15,51 @@ module.exports = {
   portfolio: [
     {
       image: "/images/cover2.jpeg",
-      description: "photo Dapp[JavaScript]",
-      url: "/"
+      description: "photo Dapp",
+      skill: "JavaScript",
+      url: "https://github.com/jes14/photo_dapp_"
     },
     {
       image: "/images/cover2.jpeg",
-      description: "election Dapp[JavaScript]",
-      url: "/"
+      description: "election Dapp",
+      skill: "JavaScript",
+      url: "https://github.com/jes14/election_dapp_"
         },
     {
       image: "/images/cover2.jpeg",
-      description: "My portfolio[JavaScript]",
+      description: "My portfolio",
+      skill: "JavaScript",
       url: "https://github.com/jes14/portfolio_"
     },
     {
       image: "/images/cover2.jpeg",
-      description: "VR cat[Unity3D]",
-      url: "/vrcat"    
+      description: "VR cat",
+      skill: "Unity3D",
+      url: "https://github.com/jes14/vrcat_"    
     },
     {
       image: "/images/cover2.jpeg",
-      description: "VR moral[Unity3D]",
-      url: "/vrmoral"
+      description: "VR moral",
+      skill: "Unity3D",
+      url: "https://github.com/jes14/vrmoral_"    
     },
     {
       image: "/images/cover2.jpeg",
-      description: "Flutter[Flutter]",
-      url: "/mobile_bluetooth"
+      description: "Dart score app",
+      skill: "Flutter",
+      url: "https://github.com/jes14/mobile_bluetooth_"    
     },
     {
       image: "/images/cover2.jpeg",
-      description: "Movie app[Kotlin]",
-      url: "/mobile_movie"
+      description: "Movie app",
+      skill: "Kotlin",
+      url: "https://github.com/jes14/mobile_movie"
     },
     {
       image: "/images/cover2.jpeg",
-      description: "Quiz app[Kotlin]",
-      url: "/mobile_quiz"
+      description: "Quiz app",
+      skill: "Kotlin",
+      url: "https://github.com/jes14/mobile_quiz_"
     },
     /* more portfolio items here */
   ],
