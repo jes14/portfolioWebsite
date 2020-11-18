@@ -8,24 +8,24 @@ module.exports = {
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `
 👋 I'm Jes, a Software Engineer based in Germany. <br /> <br />
-✨ I was working with website and game development along with full stack decentralized application. I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/> <br />
-✨ I have passionate about <strong>blockchain technologies</strong>. Feel free to check my recent experience in Ethereum smart-contracts auditing and fullstack DApp development.
+✨ I was working with website and game development along with the full-stack decentralized applications. I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/> <br />
+✨ I have passionate about <strong>blockchain</strong> technologies. Feel free to check my recent experience in Ethereum smart-contracts auditing and full-stack DApp development.
 `,
-  portifolio: [
+  portfolio: [
     {
-      image: "/images/cover.jpeg",
+      image: "/public/images/cover.jpeg",
       description: "photodapp[JavaScript]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
-      image: "/images/cover.jpeg",
+      image: "/public/images/cover.jpeg",
       description: "election dapp[JavaScript]",
       url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
     },
     {
-      image: "/images/cover.jpeg",
-      description: "Gatsby blog[JavaScript]",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/cover2.jpeg",
+      description: "My portfolio[JavaScript]",
+      url: "https://github.com/jes14/portfolio_"
     },
     {
       image: "/images/cover.jpeg",
@@ -52,7 +52,7 @@ module.exports = {
       description: "Quiz app[Kotlin]",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
-    /* more portifolio items here */
+    /* more portfolio items here */
   ],
   social: {
     twitter: "https://twitter.com/J001072",
@@ -76,7 +76,7 @@ module.exports = {
     },
     {
       label: 'Projects',
-      url: '/portifolio',
+      url: '/portfolio',
     }
   ]
 }

@@ -15,7 +15,7 @@ const Image = styled.img`
   max-width: 220px;
   object-fit: cover;
   object-position: center center;
-  border-radius: 10px;
+  border-radius: 5px;
 `
 
 const JobCard = styled.a`
@@ -32,7 +32,7 @@ const JobCard = styled.a`
 
 const Portifolio = ({ className, location }) => {
   const title = "Projects"
-  const { keywords, portifolio } = siteConfig
+  const { keywords, portfolio } = siteConfig
   return (
     <Layout location={location}>
       <SEO
@@ -48,7 +48,7 @@ const Portifolio = ({ className, location }) => {
       <Wrapper className={className}>
         <Container className="page-content" fluid>
           <Row>
-            {portifolio.map(job => (
+            {portfolio.map(job => (
               <Col
                 key={job.description}
                 align="center"
@@ -59,7 +59,7 @@ const Portifolio = ({ className, location }) => {
                   target="_blank"
                 >
                   <Image src={withPrefix(job.image)} />
-                  <p>{job.description}</p>
+                  <p align="center">{job.description}</p>
                 </JobCard>
               </Col>
             ))}
