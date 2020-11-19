@@ -10,7 +10,7 @@ module.exports = {
 👋 I'm YJ, a Software Engineer based in Germany. <br /> <br />
 ✨ Currently I am responsible for developing multiple client-side web applications. <br/> <br />
 ✨ I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/> <br />
-✨ I have passionate about <strong>blockchain</strong> technologies. In my spare time, I develop Ethereum smart-contracts auditing and full-stack decentralized applications.
+✨ I have passionate about <strong>blockchain</strong> technologies. In my spare time, I develop Ethereum smart-contracts and full-stack decentralized applications.
 `,
   portfolio: [
     {
