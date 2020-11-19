@@ -68,7 +68,7 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/yjink",
     github: "https://github.com/jes14",
   },
-  siteUrl: '',
+  siteUrl: 'https://yjin.site',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   // siteCover: '/images/cover2.jpeg',
   // googleAnalyticsId: '',
