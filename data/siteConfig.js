@@ -73,7 +73,7 @@ module.exports = {
   siteCover: '/images/cover2.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
-  theme_color: '#25303B',
+  theme_color: '#14274e',
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
