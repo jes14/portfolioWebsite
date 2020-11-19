@@ -1,10 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
-import { FaGithub } from "react-icons/fa"
-import { FiSun, FiMoon } from "react-icons/fi"
-import { withPrefix } from "gatsby"
-import Switch from 'react-switch'
 import siteConfig from '../../../data/siteConfig'
 
 const HeaderWrapper = styled.header`
@@ -60,25 +56,8 @@ const HeaderLink = styled(Link)`
   `}
 `
 
-const StyledSwitch = styled(Switch).attrs(props => ({
-  onHandleColor: props.theme.colors.primary,
-  offHandleColor: props.theme.colors.primary,
-}))`
 
-`
 
-const SwitchWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  padding-right: 20px;
-`
-
-const IconWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-`
 
 const Header = ({ location, onChangeTheme, theme }) => {
   const { headerLinks } = siteConfig
@@ -89,7 +68,6 @@ const Header = ({ location, onChangeTheme, theme }) => {
         <HeaderLinkGroup>
           {headerLinks.map((headerLink, i) => (
             <HeaderLink
-              active={location.pathname === withPrefix(headerLink.url)}
               to={headerLink.url}
               key={`header-link-${i}`}
             >
@@ -97,16 +75,6 @@ const Header = ({ location, onChangeTheme, theme }) => {
             </HeaderLink>
           ))}
         </HeaderLinkGroup>
-        {/* {siteConfig.enableDarkmode && <SwitchWrapper >
-          <StyledSwitch 
-            onChange={onChangeTheme} 
-            checked={theme === 'light'}
-            onColor="#626262"
-            offColor="#212121"
-            checkedIcon={<IconWrapper><FiSun color="yellow" /></IconWrapper>}
-            uncheckedIcon={<IconWrapper><FiMoon color="white" /></IconWrapper>}
-          />
-        </SwitchWrapper>} */}
       </HeaderNav>
     </HeaderWrapper>
   )

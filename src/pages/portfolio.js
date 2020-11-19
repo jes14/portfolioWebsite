@@ -45,7 +45,7 @@ const JobCard = styled.a`
 `
 
 const Portfolio = ({ className, location }) => {
-  const title = "Projects"
+  const title = "Side projects"
   const { keywords, portfolio } = siteConfig
   return (
     <Layout location={location}>
@@ -60,7 +60,7 @@ const Portfolio = ({ className, location }) => {
       />
 
       <Wrapper className={className}>
-        <h5 align="center">🖱️ Click for the github link</h5>
+        <h5 align="center">Click for the github link</h5>
         <Container className="page-content" fluid>
           <Row>
             {portfolio.map(job => (

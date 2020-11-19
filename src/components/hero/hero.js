@@ -1,6 +1,6 @@
 import React from 'react'
-import { withPrefix } from 'gatsby'
-import siteConfig from '../../../data/siteConfig'
+// import { withPrefix } from 'gatsby'
+// import siteConfig from '../../../data/siteConfig'
 import styled from 'styled-components'
 
 const HeroContainer = styled.div`
@@ -34,8 +34,8 @@ const Hero = ({ className, title }) => (
 )
 
 export default styled(Hero)`
-  ${p => `background-image: url(${p.heroImg || withPrefix(siteConfig.siteCover)});`}
-  height: 70vh;
+  background: #31326f;
+  height: 90vh;
   background-attachment: fixed;
   background-position: bottom center;
   background-repeat: no-repeat;

@@ -1,7 +1,7 @@
 import React from "react";
 import jsonFetch from "simple-json-fetch";
 import styled from 'styled-components'
-import { GoStar, GoRepoForked, GoLinkExternal } from 'react-icons/go'
+import { GoLinkExternal } from 'react-icons/go'
 import siteConfig from '../../../data/siteConfig'
 
 import Loader from '../loader'
@@ -40,7 +40,6 @@ class Repositories extends React.Component {
                       <a 
                         className='repositories__repo-link' 
                         href={repo.html_url}
-                        target="_blank"
                       >
                         <strong>{repo.name}</strong>
                       </a>
@@ -48,10 +47,6 @@ class Repositories extends React.Component {
                       <div className="repositories__repo-date">
                         Updated: {new Date(repo.updated_at).toUTCString()}
                       </div>
-                      {/* <div className="repositories__repo-star">
-                        {repo.fork && <GoRepoForked />}
-                        <GoStar /> {repo.stargazers_count}
-                      </div> */}
                     </div>
                     <hr />
                   </React.Fragment>
@@ -60,7 +55,6 @@ class Repositories extends React.Component {
               <div className="repositories_user-link">
                 <a 
                   href={`https://github.com/${siteConfig.githubUsername}`}
-                  target="_blank"
                 >
                   See all my repositories
                   <GoLinkExternal style={{ marginLeft: 8 }} />

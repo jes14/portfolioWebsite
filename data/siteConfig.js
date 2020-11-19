@@ -10,27 +10,27 @@ module.exports = {
 👋 I'm Yujin, a Software Engineer based in Germany. <br /> <br />
 ✨ Currently I am responsible for developing multiple client-side web applications. <br/> <br />
 ✨ I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/> <br />
-✨ I have passionate about <strong>blockchain</strong> technologies. In my spare time, I develop Ethereum smart-contracts and full-stack decentralized applications.
+✨ I have passionate about <strong>blockchain</strong> technologies. Besides my work, I develop Ethereum smart-contracts and full-stack decentralized applications.
 `,
   portfolio: [
-    {
-      image: "/images/cover2.jpeg",
-      description: "photo Dapp",
-      skill: "JavaScript",
-      url: "https://github.com/jes14/photo_dapp_"
-    },
-    {
-      image: "/images/cover2.jpeg",
-      description: "election Dapp",
-      skill: "JavaScript",
-      url: "https://github.com/jes14/election_dapp_"
-        },
-    {
-      image: "/images/main.png",
-      description: "My portfolio",
-      skill: "JavaScript",
-      url: "https://github.com/jes14/portfolio_"
-    },
+    // {
+    //   image: "/images/cover2.jpeg",
+    //   description: "photo Dapp",
+    //   skill: "JavaScript",
+    //   url: "https://github.com/jes14/photo_dapp_"
+    // },
+    // {
+    //   image: "/images/cover2.jpeg",
+    //   description: "election Dapp",
+    //   skill: "JavaScript",
+    //   url: "https://github.com/jes14/election_dapp_"
+    //     },
+    // {
+    //   image: "/images/main.png",
+    //   description: "My portfolio",
+    //   skill: "JavaScript",
+    //   url: "https://github.com/jes14/portfolio_"
+    // },
     {
       image: "/images/vrcat_1.png",
       description: "VR cat",
@@ -68,10 +68,10 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/yjink",
     github: "https://github.com/jes14",
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: '',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover2.jpeg',
-  googleAnalyticsId: 'UA-000000000-1',
+  // siteCover: '/images/cover2.jpeg',
+  // googleAnalyticsId: '',
   background_color: '#ffffff',
   theme_color: '#14274e',
   fontColor: "#000000cc",
@@ -83,9 +83,9 @@ module.exports = {
       label: 'Home',
       url: '/',
     },
-    // {
-    //   label: 'Projects',
-    //   url: '/portfolio',
-    // }
+    {
+      label: 'Projects',
+      url: '/portfolio',
+    }
   ]
 }
