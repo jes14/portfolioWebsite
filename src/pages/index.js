@@ -23,11 +23,12 @@ const Home = ({ className, location }) => {
   // validate siteConfig settings
 
   const title = siteConfig.siteTitle
+  const upperTitle = siteConfig.upperTitle
   const { keywords } = siteConfig
   return (
     <Layout location={location}>
       <SEO
-        title={title}
+        title={upperTitle}
         keywords={keywords}
       />
 

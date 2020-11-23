@@ -1,16 +1,16 @@
 module.exports = {
-  siteTitle: 'Hello, I\'m Yujin',
+  upperTitle: 'Yujin',
+  siteTitle: 'Hi, Nice to meet you👋 ',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Yujin',
+  authorName: 'Yujin Kim',
   twitterUsername: 'J001072',
   githubUsername: 'jes14',
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `
-👋 I'm Yujin, a Software Engineer based in Germany. <br /> <br />
+I'm Yujin, a Software Engineer based in Germany. <br /> <br />
 ✨ Currently I am responsible for developing multiple client-side web applications. <br/> <br />
-✨ I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/> <br />
-✨ I have passionate about <strong>blockchain</strong> technologies. Besides my work, I develop Ethereum smart-contracts and full-stack decentralized applications.
+✨ I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. Besides my work, I have passionate about <strong>blockchain</strong> technologies.<br/> <br />
 `,
   portfolio: [
     // {

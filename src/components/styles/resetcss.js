@@ -376,6 +376,7 @@ export default createGlobalStyle`
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
+    line-height: 2;
   }
   figure {
     margin-left: 0;
