@@ -42,7 +42,7 @@ const About = ({ location }) => (
                 Currently, I am doing my career as a software engineer in Germany. I am always eager to learn new technologies and I deeply interested in functional programming and financial technology.
              </p>
             <br /> <br />
-            <h1>Tech stack I've been using</h1>
+            <h1>Experiences</h1>
             <li>Frontend: React, JavaScript, TypeScript, Gatsby</li>
             <li>Backend: Node.js, Express, Python</li>
             <li>Mobile: Flutter, Android studio</li>
