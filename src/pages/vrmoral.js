@@ -24,23 +24,46 @@ const Text = styled.p`
 `
 
 const Vrmoral = ({ location }) => (
-    <Layout location={location} noCover={true}>
-        <SEO title="Page Not Found" />
-        <Hero
-            heroImg={withPrefix('/images/404.jpeg')}
-            title='vrmoral'
-        />
-        <Wrapper>
-            <MainTitle>404 Page Not Found</MainTitle>
-            <Icon>
-                <img src={withPrefix('/images/ufo-and-cow.svg')} alt='ufo and cow' />
-            </Icon>
-            <Text>
-                Looks like you've followed a broken link or entered a URL that
-                doesn't exist on this site.
-      </Text>
-        </Wrapper>
-    </Layout>
+  <Layout location={location} noCover={true}>
+    <SEO title="" />
+    <Hero
+      heroImg={withPrefix('/images/404.jpeg')}
+      title='Game development'
+    />
+    <Wrapper>
+      <MainTitle>VR moral game</MainTitle>
+
+      <p>I developed a VR moral decision game included psychological factors and I conducted an experiment with 22 participants when I was working at Gbanga. I presented a poster called "Empathy in VR of the trolley problem compared to paper-based evaluations" at International Conference of Women Scientists and Engineers conference on BT, IT, ET and NT. I got an outstanding poster award.</p>
+
+      <br />
+      <h3>Project duration</h3>
+      <p>11.2016 -01.2017</p>
+      <br /><br />
+
+      <h3>Built with:</h3>
+      <li>Unity3D</li>
+      <li>C#</li>
+      <li>HTC Vive</li>
+      <br /><br />
+      <h3>What I did</h3>
+      <li>Game development</li>
+      <li>Game design</li>
+      <li>Research and development</li>
+      <li>Conduct an experiment</li>
+      <br /><br />
+
+      <h3>Video</h3>
+      <iframe src="https://player.vimeo.com/video/234782289"
+        width="640"
+        height="300"
+        frameborder="0"
+        allow="autoplay; 
+         fullscreen"
+        allowfullscreen
+        muted
+      ></iframe>
+    </Wrapper>
+  </Layout>
 )
 
 export default Vrmoral

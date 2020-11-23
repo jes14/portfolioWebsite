@@ -35,13 +35,13 @@ module.exports = {
       image: "/images/vrcat_1.png",
       description: "VR cat",
       skill: "Unity3D",
-      url: "https://github.com/jes14/vrcat_"    
+      url: "/vrcat"    
     },
     {
       image: "/images/vrmoral_1.png",
       description: "VR moral",
       skill: "Unity3D",
-      url: "https://github.com/jes14/vrmoral_"    
+      url: "/vrmoral"    
     },
     {
       image: "/images/flutter.png",
