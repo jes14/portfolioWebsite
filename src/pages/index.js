@@ -44,7 +44,7 @@ const Home = ({ className, location }) => {
             </Col>
           </Row>
           <Row>
-              <About title='About' text={siteConfig.authorDescription}/>
+              <About title='' text={siteConfig.authorDescription}/>
           </Row>
           <Separator />
           {siteConfig.githubUsername && <Repositories />}
