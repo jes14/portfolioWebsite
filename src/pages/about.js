@@ -39,10 +39,15 @@ const About = ({ location }) => (
             <p>
                 My education and related experience have given me a strong background in the field of web development, user experience, gamification, and artificial intelligence.  <br /> <br />Earlier, I was developing various mixed reality games at a gaming company in Switzerland. I was participating in the development of mixed reality games such as a location-based predatory game and a golf game which users could play in the real world with their mobile phone. 
                 Also, I’ve had participated in a project regarding mobile-based field trips for world heritage sites in collaboration with a department of education. <br /> <br />
-                Since 2019, I came to Germany and doing my career as a software engineer. I am always eager to learn new technologies and recently I deeply interested in financial technology.
+                Currently, I am doing my career as a software engineer in Germany. I am always eager to learn new technologies and I deeply interested in functional programming and financial technology.
              </p>
             <br /> <br />
-            {/* <h1>Tech stacks</h1> */}
+            <h1>Tech stack I've been using</h1>
+            <li>Frontend: React, JavaScript, TypeScript, Gatsby</li>
+            <li>Backend: Node.js, Express, Python</li>
+            <li>Mobile: Flutter, Android studio</li>
+            <li>Game: Unity3D, C#</li>
+            <li>Blockchain: Solidity</li>
             <p></p>
         </Wrapper>
     </Layout>

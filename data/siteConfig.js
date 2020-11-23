@@ -8,7 +8,7 @@ module.exports = {
   githubUsername: 'jes14',
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `
-Hello, I'm Yujin, a Software Engineer based in Germany. <br /> <br />
+✨ Hello, I'm Yujin, a Software Engineer based in Germany. <br /> <br />
 ✨ Currently, I am responsible for developing multiple client-side web applications along with close cooperative work with the backend team. <br/> <br />
 ✨ I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. Besides my work, I have passionate about <strong>blockchain</strong> technologies.<br/> <br />
 `,
