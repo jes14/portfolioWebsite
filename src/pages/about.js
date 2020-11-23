@@ -43,7 +43,7 @@ const About = ({ location }) => (
              </p>
             <br /> <br />
             <h1>Experiences</h1>
-            <li>Frontend: React, JavaScript, TypeScript, Gatsby</li>
+            <li>Frontend: React, JavaScript, TypeScript, Gatsby, Electron</li>
             <li>Backend: Node.js, Express, Python</li>
             <li>Mobile: Flutter, Android studio</li>
             <li>Game: Unity3D, C#</li>
