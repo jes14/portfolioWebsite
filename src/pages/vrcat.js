@@ -42,7 +42,7 @@ const Vrcat = ({ location }) => (
       <p>09.2016 -11.2016</p>
       <br /><br />
 
-      <h3>Built with:</h3>
+      <h3>Built with</h3>
       <li>Unity3D</li>
       <li>C#</li>
       <li>HTC Vive</li>
