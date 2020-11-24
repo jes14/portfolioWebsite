@@ -14,15 +14,6 @@ const MainTitle = styled.h1`
   font-size: 3rem;
 `
 
-const Icon = styled.div`
-  width: 150px;
-  margin: 0 auto;
-`
-
-const Text = styled.p`
-  text-align: center;
-`
-
 const Vrmoral = ({ location }) => (
   <Layout location={location} noCover={true}>
     <SEO title="" />
@@ -56,11 +47,12 @@ const Vrmoral = ({ location }) => (
       <iframe src="https://player.vimeo.com/video/234782289"
         width="640"
         height="300"
-        frameborder="0"
+        frameBorder="0"
         allow="autoplay; 
          fullscreen"
-        allowfullscreen
+        allowFullScreen
         muted
+        title="vrmoral"
       ></iframe>
     </Wrapper>
   </Layout>

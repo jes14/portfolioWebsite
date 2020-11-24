@@ -20,8 +20,6 @@ const Separator = styled.hr`
 `
 
 const Home = ({ className, location }) => {
-  // validate siteConfig settings
-
   const title = siteConfig.siteTitle
   const upperTitle = siteConfig.upperTitle
   const { keywords } = siteConfig
@@ -36,7 +34,6 @@ const Home = ({ className, location }) => {
         heroImg={siteConfig.siteCover}
         title={title}
       />
-
       <Wrapper className={className} >
         <Container className="page-content" fluid>
           <Row>
@@ -44,7 +41,7 @@ const Home = ({ className, location }) => {
             </Col>
           </Row>
           <Row>
-              <About title='' text={siteConfig.authorDescription}/>
+            <About title='' text={siteConfig.authorDescription} />
           </Row>
           <Separator />
           {siteConfig.githubUsername && <Repositories />}

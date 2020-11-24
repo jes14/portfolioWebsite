@@ -14,34 +14,36 @@ const MainTitle = styled.h1`
   font-size: 3rem;
 `
 
-const Icon = styled.div`
-  width: 150px;
-  margin: 0 auto;
-`
-
-const Text = styled.p`
-  text-align: center;
-`
+const Button = styled.button`
+  color: #14274e;
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid #14274e;
+  border-radius: 3px;
+`;
 
 const Vrcat = ({ location }) => (
-    <Layout location={location} noCover={true}>
-        <SEO title="vrcat" />
-        <Hero
-            heroImg={withPrefix('/images/404.jpeg')}
-            title='Game development'
-        />
-        <Wrapper>
+  <Layout location={location} noCover={true}>
+    <SEO title="vrcat" />
+    <Hero
+      heroImg={withPrefix('/images/404.jpeg')}
+      title='Game development'
+    />
+    <Wrapper>
       <MainTitle>VR cat game</MainTitle>
 
-      <p>I created an exploration VR game called ’A Cat in a Room’ and successfully exhibited in Swiss indie game festival</p>
-      
+      <p>I created an exploration VR game called ’A Cat in a Room’ and successfully exhibited in Swiss indie game festival.
+        <Button as="a" href="http://www.gamezfestival.ch/2016/">Go to link</Button>
+      </p>
+
       <br />
       <h3>Project duration</h3>
       <p>09.2016 -11.2016</p>
       <br /><br />
 
       <h3>Built with:</h3>
-      <li>Unity3D</li> 
+      <li>Unity3D</li>
       <li>C#</li>
       <li>HTC Vive</li>
       <br /><br />
@@ -53,17 +55,18 @@ const Vrcat = ({ location }) => (
       <br /><br />
 
       <h3>Video</h3>
-      <iframe src="https://player.vimeo.com/video/234780830" 
+      <iframe src="https://player.vimeo.com/video/234780830"
         width="640"
         height="300"
-        frameborder="0"
+        frameBorder="0"
         allow="autoplay; 
          fullscreen"
-        allowfullscreen
-        muted 
-        ></iframe>
-        </Wrapper>
-    </Layout>
+        allowFullScreen
+        muted
+        title="vrcat"
+      ></iframe>
+    </Wrapper>
+  </Layout>
 )
 
 export default Vrcat

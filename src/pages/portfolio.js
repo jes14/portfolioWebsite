@@ -7,23 +7,8 @@ import loadable from '@loadable/component'
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
-import { FaGithub } from "react-icons/fa"
 
 const Layout = loadable(() => import('../components/layout'))
-// const Link = styled(({ className, icon: Icon, color, ...props }) => (
-//   <a
-//     className={className}
-//     target='_blank'
-//     rel="noopener noreferrer"
-//    // {...props}
-//   >
-//     <Icon color={color} size={32} />
-//   </a>
-// )).attrs(props => ({ color: props.theme.colors.primary }))`
-//   & + & {
-//     margin-left: 24px;
-//   }
-// `;
 
 const Image = styled.img`
   max-height: 220px;
@@ -32,21 +17,6 @@ const Image = styled.img`
   object-position: center center;
   border-radius: 5px;
 `
-
-const Button = styled.button`
-  color: ${props => props.theme.fg};
-  border: 0px solid ${props => props.theme.fg};
-  background: ${props => props.theme.bg};
-  font-size: 1em;
-  margin-left: 3px;
-  border-radius: 3px;
-`;
-
-const theme = {
-  fg: "grey",
-  bg: "papayawhip"
-};
-
 const JobCard = styled.a`
   text-decoration: none;
   color: inherit;
@@ -75,7 +45,6 @@ const Portfolio = ({ className, location }) => {
       />
 
       <Wrapper className={className}>
-        {/* <h5 align="center">Click for the github link</h5> */}
         <Container className="page-content" fluid>
           <Row>
             {portfolio.map(job => (
@@ -90,11 +59,6 @@ const Portfolio = ({ className, location }) => {
                 >
                   <Image src={withPrefix(job.image)} />
                   <p align="center">{job.description}
-                    <a href="#">{FaGithub}</a>
-
-                    {/* <Button theme={theme}>{job.skill}</Button> */}
-                      {/* </ThemeProvider> */}
-                    
                   </p>
                 </JobCard>
               </Col>
