@@ -28,7 +28,7 @@ const Vrcat = ({ location }) => (
     <SEO title="vrcat" />
     <Hero
       heroImg={withPrefix('/images/404.jpeg')}
-      title='Game development'
+      title='Game dev'
     />
     <Wrapper>
       <MainTitle>VR cat game</MainTitle>
@@ -56,7 +56,7 @@ const Vrcat = ({ location }) => (
 
       <h3>Video</h3>
       <iframe src="https://player.vimeo.com/video/234780830"
-        width="640"
+        width="100%"
         height="300"
         frameBorder="0"
         allow="autoplay; 

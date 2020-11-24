@@ -19,7 +19,7 @@ const Vrmoral = ({ location }) => (
     <SEO title="" />
     <Hero
       heroImg={withPrefix('/images/404.jpeg')}
-      title='Game development'
+      title='Game dev'
     />
     <Wrapper>
       <MainTitle>VR moral game</MainTitle>
@@ -45,7 +45,7 @@ const Vrmoral = ({ location }) => (
 
       <h3>Video</h3>
       <iframe src="https://player.vimeo.com/video/234782289"
-        width="640"
+        width="100%"
         height="300"
         frameBorder="0"
         allow="autoplay; 
@@ -54,6 +54,8 @@ const Vrmoral = ({ location }) => (
         muted
         title="vrmoral"
       ></iframe>
+
+
     </Wrapper>
   </Layout>
 )
