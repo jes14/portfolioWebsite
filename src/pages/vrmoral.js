@@ -28,7 +28,7 @@ const Vrmoral = ({ location }) => (
 
       <br />
       <h3>Project duration</h3>
-      <p>11.2016 -01.2017</p>
+      <p>11.2016 - 01.2017</p>
       <br /><br />
 
       <h3>Built with</h3>

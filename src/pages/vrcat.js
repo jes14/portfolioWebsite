@@ -39,7 +39,7 @@ const Vrcat = ({ location }) => (
 
       <br />
       <h3>Project duration</h3>
-      <p>09.2016 -11.2016</p>
+      <p>09.2016 - 11.2016</p>
       <br /><br />
 
       <h3>Built with</h3>
