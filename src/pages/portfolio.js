@@ -30,7 +30,7 @@ const JobCard = styled.a`
 `
 
 const Portfolio = ({ className, location }) => {
-  const title = "Side projects"
+  const title = "Projects"
   const { keywords, portfolio } = siteConfig
   return (
     <Layout location={location}>
