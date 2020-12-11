@@ -43,8 +43,8 @@ const Home = ({ className, location }) => {
           <Row>
             <About title='' text={siteConfig.authorDescription} />
           </Row>
-          <Separator />
-          {siteConfig.githubUsername && <Repositories />}
+          {/* <Separator /> */}
+          {/* {siteConfig.githubUsername && <Repositories />} */}
         </Container>
       </Wrapper>
     </Layout>
