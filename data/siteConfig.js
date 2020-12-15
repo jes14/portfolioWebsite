@@ -83,10 +83,10 @@ module.exports = {
       label: 'Home',
       url: '/',
     },
-    // {
-    //   label: 'About',
-    //   url: '/about',
-    // },
+    {
+      label: 'About',
+      url: '/about',
+    },
     // {
     //   label: 'Projects',
     //   url: '/portfolio',
