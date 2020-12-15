@@ -10,13 +10,9 @@ module.exports = {
   authorDescription: `
 <h1>Hi, I'm Yujin 👋</h1> 
 <br/> <br />I am a Frontend Developer with over 3 years of professional experience. I am responsible for developing multiple client-side web applications along with close cooperative work with the backend team.  I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software. <br/> <br />
-<p>
-        My education and related experience have given me a strong background in the field of web development, user experience, gamification, and artificial intelligence.  <br /> <br />Earlier, I was developing various mixed reality games at a gaming company in Switzerland. I was participating in the development of mixed reality games such as a location-based predatory game and a golf game which users could play in the real world with their mobile phone.
-                Also, I’ve had participated in a project regarding mobile-based field trips for world heritage sites in collaboration with a department of education. <br /> <br />
-                Currently, I am doing my career as a software engineer in Germany. I am always eager to learn new technologies and I deeply interested in functional programming and financial technology.
-
-             </p>
-      <br /> <br />
+<p>My education and related experience have given me a strong background in the field of web development, user experience, gamification, and artificial intelligence.  <br /> <br />Earlier, I was developing various mixed reality games at a gaming company in Switzerland. I was participating in the development of mixed reality games such as a location-based predatory game and a golf game which users could play in the real world with their mobile phone. Also, I’ve had participated in a project regarding mobile-based field trips for world heritage sites in collaboration with a department of education. <br /> <br />
+Currently, I am doing my career as a software engineer in Germany. I am always eager to learn new technologies and I deeply interested in functional programming and financial technology.
+</p>
 `,
   portfolio: [
     // {
