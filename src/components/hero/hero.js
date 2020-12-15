@@ -35,7 +35,7 @@ const Hero = ({ className, title }) => (
 
 export default styled(Hero)`
   background: #31326f;
-  height: 90vh;
+  height: 50vh;
   background-attachment: fixed;
   background-position: bottom center;
   background-repeat: no-repeat;

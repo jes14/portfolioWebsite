@@ -15,7 +15,7 @@ const Link = styled(({ className, icon: Icon, color, ...props }) => (
   </a>
 )).attrs(props => ({ color: props.theme.colors.primary }))`
   & + & {
-    margin-left: 24px;
+    margin-left: 50px;
   }
 `;
 
@@ -26,9 +26,9 @@ const Footer = ({ className }) => {
     github,
   } = siteConfig.social
   return (
-    <footer className={className}>
-      {`© ${new Date().getFullYear()} ${siteConfig.authorName}`}
-      <div>
+    <footer className={className} style={{ justifyContent: "center" }}>
+      {/* {`© ${new Date().getFullYear()} ${siteConfig.authorName}`} */}
+      <div >
         {github && <Link href={github} icon={FaGithub} />}
         {twitter && <Link href={twitter} icon={FaTwitter} />}
         {linkedin && <Link href={linkedin} icon={FaLinkedin} />}

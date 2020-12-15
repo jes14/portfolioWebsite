@@ -32,7 +32,7 @@ const Home = ({ className, location }) => {
 
       <Hero
         heroImg={siteConfig.siteCover}
-        title={title}
+       // title={title}
       />
       <Wrapper className={className} >
         <Container className="page-content" fluid>

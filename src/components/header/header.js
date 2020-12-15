@@ -64,7 +64,7 @@ const Header = ({ location, onChangeTheme, theme }) => {
 
   return (
     <HeaderWrapper>
-      <HeaderNav>
+      {/* <HeaderNav>
         <HeaderLinkGroup>
           {headerLinks.map((headerLink, i) => (
             <HeaderLink
@@ -75,7 +75,7 @@ const Header = ({ location, onChangeTheme, theme }) => {
             </HeaderLink>
           ))}
         </HeaderLinkGroup>
-      </HeaderNav>
+      </HeaderNav> */}
     </HeaderWrapper>
   )
 }
