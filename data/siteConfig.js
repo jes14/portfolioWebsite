@@ -4,7 +4,7 @@ module.exports = {
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Yujin Kim',
-  twitterUsername: 'J001072',
+  twitterUsername: 'yjinnk',
   githubUsername: 'jes14',
   authorAvatar: '/images/avatar.jpeg',
   authorDescription: `
@@ -66,7 +66,7 @@ Currently, I am doing my career as a software engineer in Germany. I am always e
     /* more portfolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/J001072",
+    twitter: "https://twitter.com/yjinnk",
     linkedin: "https://www.linkedin.com/in/yjink",
     github: "https://github.com/jes14",
   },
