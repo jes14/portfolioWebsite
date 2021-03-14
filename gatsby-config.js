@@ -1,38 +1,35 @@
-const config = require("./data/siteConfig");
-
 module.exports = {
-  siteMetadata: {
-    title: config.siteTitle,
-    description: config.siteDescription,
-    author: config.authorName,
-    ...config
-  },
-  pathPrefix: config.pathPrefix,
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: config.siteTitle,
-        short_name: config.siteTitle,
-        start_url: config.pathPrefix,
-        background_color: config.background_color,
-        theme_color: config.theme_color,
-        display: config.display,
-        icon: config.icon,
+        name: `Yujin`,
+        short_name: `Yujin`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#02aab0`,
+        display: `standalone`,
+        icon: 'src/images/favicon.png',
       },
     },
-    `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: config.googleAnalyticsId,
-      },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ],
-}
+};

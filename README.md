@@ -2,7 +2,7 @@
 
 [![Dependencies](https://img.shields.io/david/sunnysingh/sunnysingh.io.svg?style=for-the-badge)](https://david-dm.org/jes14/portfolio_) [![Issues](https://img.shields.io/github/issues/sunnysingh/sunnysingh.io.svg?style=for-the-badge)](https://github.com/jes14/portfolio_/issues) [![](https://img.shields.io/github/issues-pr/sunnysingh/sunnysingh.io.svg?style=for-the-badge)](https://github.com/jes14/portfolio_/pulls)
 
-This is a YJ's portfolio.
+This is a Yujin's portfolio.
 
 🛠 Built with:
 
