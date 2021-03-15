@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Hero from './Hero/Hero';
-import Footer from './Footer/Footer';
-
+import Hero from './hero/Hero';
+import Footer from './footer/Footer';
 import { PortfolioProvider } from '../context/context';
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
