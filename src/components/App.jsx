@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './Hero/Hero';
-import About from './About/About';
 import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
@@ -25,7 +24,6 @@ function App() {
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <Hero />
-      {/* <About /> */}
       <Footer />
     </PortfolioProvider>
   );
