@@ -28,7 +28,7 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Yujin.'}</span>
             <br />
-            {subtitle || "I'm the Software Developer."}
+            {subtitle || "I'm a Software Developer."}
           </h1>
           <h3 className="hero-subtitle">I am responsible for developing multiple client-side web applications. I want to leverage my diverse research background in Human-Computer Interaction to build cutting-edge software.</h3>
         </Fade>
